@@ -132,7 +132,7 @@ function dailyCheckIn() {
         }
         // 提交结果
         toastLog("提交");
-        dialogs.alert("目前为测试版", "遇到Bug请按'音量+'键结束脚本\n请授权无障碍服务");
+        dialogs.alert("目前为测试版", "暂时未开放自动提交，请检查后手动提交");
 
     } else if (id('dl').text("我在校园").exists()) {
         var checkIn = className("android.view.View").text("健康打卡").findOne(1000);
