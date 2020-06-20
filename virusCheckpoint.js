@@ -151,6 +151,7 @@ function main() {
     // console.show();
     goToWeChat();
     goToCheckIn();
+    // login();
     dailyCheckIn();
     toastLog("done");
 }
