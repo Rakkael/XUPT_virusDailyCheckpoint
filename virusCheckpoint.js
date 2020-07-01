@@ -151,7 +151,9 @@ function main() {
     // console.show();
     goToWeChat();
     goToCheckIn();
-    // login();
+    if (text("未登录").exists()) {
+        login();
+    }
     dailyCheckIn();
     toastLog("done");
 }
